@@ -23,7 +23,7 @@ This project is a backend application for the management of patients in a hospit
 2. Navigate to the project directory:
  `cd patient-management-system`
 
-## Ejecución
+## Running the Application
 1. Build the Docker image using the Dockerfile:
  `docker build -t patient-management-system .`
 2. Start the container using the docker-compose.yml file:
@@ -31,45 +31,47 @@ This project is a backend application for the management of patients in a hospit
 4. Access the application in your browser:
  `http://localhost:8080`
 
-### Localmente
+### Running Locally
 
-1. Asegúrate de tener PostgreSQL en ejecución y configurado según tu archivo `.env`.
+1. Ensure PostgreSQL is running and configured according to your `.env` file.
 
-2. Ejecuta la aplicación: `python -m src.app.app`
+2. Run the application: `python -m src.app.app`
 
-3. La aplicación estará disponible en: `http://localhost:8080`.
+3. The application will be available at: `http://localhost:8080`.
 
 ## API Endpoints
 
-- `POST /api/add-patient`: Añadir un nuevo paciente
-- `GET /api/get-patient/<id>`: Obtener un paciente por ID
-- `PUT /api/update-patient`: Actualizar información de un paciente
-- `GET /api/get-patients`: Obtener todos los pacientes
-- `DELETE /api/delete-patient/<id>`: Eliminar un paciente
+- `POST /api/add-patient`: Add a new patient
+- `GET /api/get-patient/<id>`: Get a patient by ID
+- `PUT /api/update-patient`: Update patient information
+- `GET /api/get-patients`: Get all patients
+- `DELETE /api/delete-patient/<id>`: Delete a patient
 
-## Desarrollo
+## Development
 
-Para contribuir al proyecto:
+To contribute to the project:
 
-1. Crea un fork del repositorio
-2. Crea una nueva rama (`git checkout -b feature/AmazingFeature`)
-3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Herramientas utilizadas
+## Tools 
 
-- [Flask](https://flask.palletsprojects.com/): Framework web
-- [SQLAlchemy](https://www.sqlalchemy.org/): ORM para la base de datos
-- [Docker](https://www.docker.com/): Containerización
-- [PostgreSQL](https://www.postgresql.org/): Base de datos
+- [Flask](https://flask.palletsprojects.com/): Web framework
+- [SQLAlchemy](https://www.sqlalchemy.org/): ORM for the database
+- [Docker](https://www.docker.com/): Containerization
+- [PostgreSQL](https://www.postgresql.org/): Database
 
-## Licencia
+## License
 
-Distribuido bajo la Licencia MIT. Ver `LICENSE` para más información.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contacto
+## Contact
 
-Jose Galindo - juniorgala23@gmail.com
+Jose Galindo - `juniorgala23@gmail.com`
+
+Wpp: `+57 321 2927 430`
 
 Link del Proyecto: [https://github.com/josegalindo23/patient-management-system](https://github.com/josegalindo23/patient-management-system.git)
